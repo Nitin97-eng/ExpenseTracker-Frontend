@@ -23,13 +23,13 @@ const Navbar = () => {
             ? "bg-gray-950 text-white shadow"
             : "bg-white text-black shadow"
         }>
-            <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div className="max-w-7xl mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center gap-4">
 
-                <h1 className="text-2xl font-bold text-blue-600">
+                <h1 className="text-2xl font-bold text-blue-600 text-center">
                     Expense Tracker
                 </h1>
 
-                <div className="flex gap-6 items-center">
+                <div className="flex flex-wrap justify-center gap-3 md:gap-6 items-center">
 
                     <Link
                         to="/dashboard"
