@@ -300,8 +300,8 @@ const Budgets = () => {
 
                 <div className={
                     darkMode
-                        ? "bg-gray-800 text-white shadow rounded-lg overflow-hidden"
-                        : "bg-white shadow rounded-lg overflow-hidden"
+                        ? "bg-gray-800 text-white shadow rounded-lg overflow-x-auto"
+                        : "bg-white shadow rounded-lg overflow-x-auto"
                     }
                 >
 
@@ -408,7 +408,7 @@ const Budgets = () => {
 
                         </table>*/
 
-                        <table className="w-full">
+                        <table className="w-full min-w-[900px]">
 
     <thead  className={
         darkMode
